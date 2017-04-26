@@ -1,10 +1,16 @@
 source 'https://rubygems.org'
 
+# image uploading for heroku
+gem 'figaro'
+gem 'fog'
+
+# picture and video upload
+gem 'carrierwave', '~> 1.0'
 # user authentication
 gem 'devise'
 # forms
 gem 'simple_form'
-
+# bootstrap
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets', '2.11.0'
 # 
