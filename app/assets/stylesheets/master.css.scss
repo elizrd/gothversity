@@ -69,6 +69,10 @@ h1, h2, h3, h4, h5, h6, .navbar {
   background-color: black;
 }
 
+.btn:hover {
+    color: white;
+}
+
 body {
   background: url('bg.png');
   font-family: 'Goudy Bookletter 1911', serif;
