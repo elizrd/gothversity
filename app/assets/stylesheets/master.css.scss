@@ -1,16 +1,54 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Goudy+Bookletter+1911|New+Rocker|Pirata+One');
 
 .navbar-inverse .navbar-brand {
-  color: #7C08AC;
+  color: silver;
   font-family: 'deutsch_gothicnormal', serif;
-  font-size: 32px;
+  font-size: 48px;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
 }
 
 .navbar {
-  border-radius:0;
-  font-family: "Helvetica Neue", Helvetica;
+  border-radius: 0;
+  font-family: 'Goudy Bookletter 1911', serif;
+  color: silver;
   font-weight: 200;
   box-shadow: 0px 1px 3px #2a2a2a;
   background: url('zwartevilt.jpg');
+}
+
+.hero {
+  background: url('hero.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height:370px;
+  box-shadow: 0px 3px 8px #2a2a2a;
+}
+
+h1, h2, h3, h4, h5, h6, .navbar {
+  margin: 0;
+}
+
+.frosty {
+  background: rgba(0,0,0, 0.5);
+  color: silver;
+}
+
+.frosty h1 {
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-weight: 100;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
+}
+
+.frosty h2 {
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-weight: 200;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
+}
+
+.btn {
+  border-radius: 0;
 }
