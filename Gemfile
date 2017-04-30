@@ -3,9 +3,10 @@ source 'https://rubygems.org'
 # image uploading for heroku
 gem 'figaro'
 gem 'fog'
-
 # picture and video upload
 gem 'carrierwave', '~> 1.0'
+gem 'mini_magick', '~> 4.3.1'
+
 # user authentication
 gem 'devise'
 # forms
