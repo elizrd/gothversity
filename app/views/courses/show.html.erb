@@ -18,6 +18,16 @@
       <br />
       <%= link_to 'Administer', instructor_course_path(@course), class: 'btn btn-lg' %>
     <% end %>
+  
+    <br />
+    <br />
+  
+    <% if current_user && current_user.enrolled_in?(@course) %>
+      <h3 class="label label-info">You Are Enrolled!</h3>
+    <% else %>
+      <%= link_to 'Enroll', course_enrollments_path(@course), class: 'btn', method: :post %>
+    <% end %>
+  
   </div>
 
   <div class="col-sm-8 col-xs-12">
@@ -48,6 +58,10 @@
         <br class='clr' />
       </div>
     <% end %>
+    
+    <br />
+    <br />
+    
   </div>  
   
 </div>
