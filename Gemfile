@@ -6,6 +6,7 @@ gem 'fog'
 # picture and video upload
 gem 'carrierwave', '~> 1.0'
 gem 'mini_magick', '~> 4.3.1'
+gem 'carrierwave-aws'
 
 # user authentication
 gem 'devise'
