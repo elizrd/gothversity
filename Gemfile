@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# Payments
+gem 'stripe'
+
 # image uploading for heroku
 gem 'figaro'
 gem 'fog'
